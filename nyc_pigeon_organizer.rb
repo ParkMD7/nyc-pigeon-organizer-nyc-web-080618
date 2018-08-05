@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
               city_pigeons[names] = {} if city_pigeons[names].nil?
               #binding.pry
               city_pigeons[names][pigeon_attribute] = [] if city_pigeons[names][pigeon_attribute].nil?
+              binding.pry
               city_pigeons[names][pigeon_attribute] << attribute_detail.to_s
           end
       end
