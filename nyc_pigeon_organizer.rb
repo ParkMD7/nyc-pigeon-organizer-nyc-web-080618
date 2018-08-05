@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
     #binding.pry
       pigeon_colors.each do |c, d|
         binding.pry
+      end
   end
   
 end
