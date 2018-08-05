@@ -7,8 +7,9 @@ def nyc_pigeon_organizer(data)
   
   data.each do |pigeon_attribute, pigeon_colors|
     #binding.pry
-      pigeon_colors.each do |color_names, pigeon_names|
+      pigeon_colors.each do |attribute_detail, pigeon_names|
         #binding.pry
+          pigeon_names.each do |e, f|
       end
   end
   
