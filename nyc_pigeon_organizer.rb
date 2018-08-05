@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
             #binding.pry
               city_pigeons[names] = {} if city_pigeons[names].nil?
               city_pigeons[names][pigeon_attribute] = [] if city_pigeons[names][pigeon_attribute].nil?
+              new_hash[pigeon][attribute_type] << attribute.to_s
           end
       end
   end
