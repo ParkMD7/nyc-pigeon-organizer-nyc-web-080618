@@ -10,6 +10,8 @@ def nyc_pigeon_organizer(data)
       pigeon_colors.each do |attribute_detail, pigeon_names|
         #binding.pry
           pigeon_names.each do |e, f|
+            binding.pry
+          end
       end
   end
   
